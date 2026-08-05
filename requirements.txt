@@ -13,3 +13,4 @@ numpy
 gtts
 Pillow
 langchain-ollama
+langchain-chroma
