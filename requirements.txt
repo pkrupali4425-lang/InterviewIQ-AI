@@ -1,0 +1,8 @@
+streamlit
+pypdf
+sentence-transformers
+langchain
+langchain-text-splitters
+langchain-ollama
+faiss-cpu
+numpy
