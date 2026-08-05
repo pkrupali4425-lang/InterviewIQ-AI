@@ -14,3 +14,5 @@ gtts
 Pillow
 langchain-ollama
 langchain-chroma
+torch
+torchvision
