@@ -1,45 +1,59 @@
 # InterviewIQ-AI
-AI-powered Interview Preparation Assistant using LLM and RAG
-## Deployment Instructions
 
+AI-powered Interview Preparation Assistant using Streamlit, Google Gemini, LangChain, FAISS, and Hugging Face.
 
-1. Clone the repository.
-2. Install the required packages:
+## Features
+
+- 📄 Interview Chat (RAG-based PDF Chat)
+- 📑 Resume Analyzer
+- 💼 Job Description Matcher
+- 🎤 Mock Interview
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/pkrupali4425-lang/InterviewIQ-AI.git
+```
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file in the project root and add your Gemini API key:
+## API Configuration
+
+This project uses the **Google Gemini API**.
+
+To use the AI features, create your own Gemini API key from Google AI Studio.
+
+Create a `.env` file:
 
 ```env
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 ```
 
-4. Run the application:
+Replace `YOUR_GEMINI_API_KEY` with your own API key.
+
+> **Note:** The API key is **not included** in this repository for security reasons.
+
+## Run the Project
 
 ```bash
 streamlit run app.py
 ```
 
+## Technologies Used
 
-## API Configuration
+- Python
+- Streamlit
+- Google Gemini API
+- LangChain
+- FAISS
+- Hugging Face Embeddings
 
-This project uses the Google Gemini API for AI-powered features such as:
+## Author
 
-- AI Interview Chat
-- Resume Analyzer
-- Job Description Matcher
-- Mock Interview
-
-To enable these features, create your own Google Gemini API key and add it as an environment variable.
-
-### Create a `.env` file
-
-```env
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-```
-
-Replace `YOUR_GEMINI_API_KEY` with your own Google Gemini API key.
-
-> **Note:** For security reasons, the API key is **not included** in this repository. Users must provide their own API key to use the AI features.
+**Krupali Prajapati**
